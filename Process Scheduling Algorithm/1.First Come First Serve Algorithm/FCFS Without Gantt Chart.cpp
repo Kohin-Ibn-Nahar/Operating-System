@@ -54,13 +54,11 @@ int main()
 
     for(int i = 0;i < n;i++)
     {
-        int a;
-        a = p[i].ct-p[i].at;
-
+        int tat = p[i].ct-p[i].at;
         int wt = a-p[i].bt;
         int rt = a-p[i].bt;
 
-        total_tat = total_tat + a;
+        total_tat = total_tat + tat;
         total_wt = total_wt + wt;
         total_rt = total_rt + rt;
 
