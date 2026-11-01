@@ -55,8 +55,8 @@ int main()
     for(int i = 0;i < n;i++)
     {
         int tat = p[i].ct-p[i].at;
-        int wt = a-p[i].bt;
-        int rt = a-p[i].bt;
+        int wt = tat-p[i].bt;
+        int rt = tat-p[i].bt;
 
         total_tat = total_tat + tat;
         total_wt = total_wt + wt;
